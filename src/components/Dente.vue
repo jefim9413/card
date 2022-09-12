@@ -15,7 +15,7 @@
         
         data(){
             return {
-                avatar: '/dente.png'
+                avatar: '/dente.png'anaaa a 
             }
         }
     }
