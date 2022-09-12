@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div >
+    <table>
+      <tr><td><Dente/></td><td><Dente/></td><td><Dente/></td></tr>
+    </table>
+      
+   
+  </div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import PrimeiroComponente from './components/PrimeiroComponente.vue'
+import Dente from './components/Dente.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PrimeiroComponente,
+    Dente,
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
